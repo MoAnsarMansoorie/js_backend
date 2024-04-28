@@ -2,10 +2,14 @@
   "name": "js_backend",
   "version": "1.0.0",
   "description": "a backend series for javascript",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" : "nodemon src/index.js"
   },
   "author": "Mo Ansar Mansoorie",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
