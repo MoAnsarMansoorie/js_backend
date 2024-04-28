@@ -1,0 +1,11 @@
+{
+  "name": "js_backend",
+  "version": "1.0.0",
+  "description": "a backend series for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mo Ansar Mansoorie",
+  "license": "ISC"
+}
