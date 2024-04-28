@@ -5,11 +5,13 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev" : "nodemon src/index.js"
+    "start": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "Mo Ansar Mansoorie",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
   }
 }
